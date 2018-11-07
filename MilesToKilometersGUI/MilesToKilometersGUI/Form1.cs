@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProjectedRaisesGui
+namespace MilesToKilometersGUI
 {
     public partial class Form1 : Form
     {
@@ -17,17 +17,15 @@ namespace ProjectedRaisesGui
             InitializeComponent();
         }
 
-        private void nxtSalary_Click(object sender, EventArgs e)
+        private void convert_Click(object sender, EventArgs e)
         {
-            double pay;
-            double project;
-            string moneyProduct;
+            int miles;
+            double kilos;
 
-            pay = Convert.ToDouble(txtsal1.Text);
-            project = pay + (pay * .04);
+            miles = Convert.ToInt32(txtMiles.Text);
+            kilos = miles * 1.6;
 
-            moneyProduct = project.ToString("C");
-            lblprojected.Text = " " + moneyProduct;
+            lblKilos.Text = " " + kilos;
         }
     }
 }
