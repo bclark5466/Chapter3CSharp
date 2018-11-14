@@ -62,6 +62,7 @@ namespace MadLibGUI
             lblIt.Visible = true;
             lblPlural.Visible = true;
             lblAlthough.Visible = true;
+            picDragon.Visible = true;
         }
     }
 }

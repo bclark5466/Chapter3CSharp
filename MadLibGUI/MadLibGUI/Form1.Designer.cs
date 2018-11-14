@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -61,6 +62,8 @@
             this.lblPlural = new System.Windows.Forms.Label();
             this.lblAlthough = new System.Windows.Forms.Label();
             this.txtEst = new System.Windows.Forms.TextBox();
+            this.picDragon = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picDragon)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -207,7 +210,7 @@
             // 
             this.lblThe.AutoSize = true;
             this.lblThe.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblThe.Location = new System.Drawing.Point(30, 244);
+            this.lblThe.Location = new System.Drawing.Point(29, 207);
             this.lblThe.Name = "lblThe";
             this.lblThe.Size = new System.Drawing.Size(33, 17);
             this.lblThe.TabIndex = 18;
@@ -218,7 +221,7 @@
             // 
             this.lblColor.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblColor.Location = new System.Drawing.Point(62, 243);
+            this.lblColor.Location = new System.Drawing.Point(61, 206);
             this.lblColor.Name = "lblColor";
             this.lblColor.Size = new System.Drawing.Size(100, 21);
             this.lblColor.TabIndex = 19;
@@ -228,7 +231,7 @@
             // 
             this.lblDragon.AutoSize = true;
             this.lblDragon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblDragon.Location = new System.Drawing.Point(168, 244);
+            this.lblDragon.Location = new System.Drawing.Point(167, 207);
             this.lblDragon.Name = "lblDragon";
             this.lblDragon.Size = new System.Drawing.Size(93, 17);
             this.lblDragon.TabIndex = 20;
@@ -239,7 +242,7 @@
             // 
             this.lblEst.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblEst.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblEst.Location = new System.Drawing.Point(267, 243);
+            this.lblEst.Location = new System.Drawing.Point(266, 206);
             this.lblEst.Name = "lblEst";
             this.lblEst.Size = new System.Drawing.Size(85, 21);
             this.lblEst.TabIndex = 21;
@@ -249,7 +252,7 @@
             // 
             this.lblInteger.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblInteger.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblInteger.Location = new System.Drawing.Point(494, 243);
+            this.lblInteger.Location = new System.Drawing.Point(493, 206);
             this.lblInteger.Name = "lblInteger";
             this.lblInteger.Size = new System.Drawing.Size(100, 21);
             this.lblInteger.TabIndex = 22;
@@ -259,7 +262,7 @@
             // 
             this.lblOf.AutoSize = true;
             this.lblOf.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblOf.Location = new System.Drawing.Point(358, 244);
+            this.lblOf.Location = new System.Drawing.Point(357, 207);
             this.lblOf.Name = "lblOf";
             this.lblOf.Size = new System.Drawing.Size(131, 17);
             this.lblOf.TabIndex = 23;
@@ -270,7 +273,7 @@
             // 
             this.lblBody.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblBody.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblBody.Location = new System.Drawing.Point(611, 243);
+            this.lblBody.Location = new System.Drawing.Point(610, 206);
             this.lblBody.Name = "lblBody";
             this.lblBody.Size = new System.Drawing.Size(102, 21);
             this.lblBody.TabIndex = 24;
@@ -280,7 +283,7 @@
             // 
             this.lblAnd.AutoSize = true;
             this.lblAnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblAnd.Location = new System.Drawing.Point(719, 244);
+            this.lblAnd.Location = new System.Drawing.Point(718, 207);
             this.lblAnd.Name = "lblAnd";
             this.lblAnd.Size = new System.Drawing.Size(52, 17);
             this.lblAnd.TabIndex = 25;
@@ -291,7 +294,7 @@
             // 
             this.lblShaped.AutoSize = true;
             this.lblShaped.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblShaped.Location = new System.Drawing.Point(139, 286);
+            this.lblShaped.Location = new System.Drawing.Point(138, 249);
             this.lblShaped.Name = "lblShaped";
             this.lblShaped.Size = new System.Drawing.Size(92, 17);
             this.lblShaped.TabIndex = 26;
@@ -302,7 +305,7 @@
             // 
             this.lblAnimal.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblAnimal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblAnimal.Location = new System.Drawing.Point(33, 280);
+            this.lblAnimal.Location = new System.Drawing.Point(32, 243);
             this.lblAnimal.Name = "lblAnimal";
             this.lblAnimal.Size = new System.Drawing.Size(100, 23);
             this.lblAnimal.TabIndex = 27;
@@ -312,7 +315,7 @@
             // 
             this.lblNoun.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblNoun.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblNoun.Location = new System.Drawing.Point(237, 280);
+            this.lblNoun.Location = new System.Drawing.Point(236, 243);
             this.lblNoun.Name = "lblNoun";
             this.lblNoun.Size = new System.Drawing.Size(100, 23);
             this.lblNoun.TabIndex = 28;
@@ -331,7 +334,7 @@
             // 
             this.lblIt.AutoSize = true;
             this.lblIt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblIt.Location = new System.Drawing.Point(343, 286);
+            this.lblIt.Location = new System.Drawing.Point(342, 249);
             this.lblIt.Name = "lblIt";
             this.lblIt.Size = new System.Drawing.Size(100, 17);
             this.lblIt.TabIndex = 30;
@@ -342,7 +345,7 @@
             // 
             this.lblPlural.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblPlural.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblPlural.Location = new System.Drawing.Point(449, 280);
+            this.lblPlural.Location = new System.Drawing.Point(448, 243);
             this.lblPlural.Name = "lblPlural";
             this.lblPlural.Size = new System.Drawing.Size(100, 23);
             this.lblPlural.TabIndex = 31;
@@ -352,7 +355,7 @@
             // 
             this.lblAlthough.AutoSize = true;
             this.lblAlthough.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblAlthough.Location = new System.Drawing.Point(555, 288);
+            this.lblAlthough.Location = new System.Drawing.Point(554, 251);
             this.lblAlthough.Name = "lblAlthough";
             this.lblAlthough.Size = new System.Drawing.Size(264, 17);
             this.lblAlthough.TabIndex = 32;
@@ -366,11 +369,22 @@
             this.txtEst.Size = new System.Drawing.Size(100, 20);
             this.txtEst.TabIndex = 9;
             // 
+            // picDragon
+            // 
+            this.picDragon.Image = ((System.Drawing.Image)(resources.GetObject("picDragon.Image")));
+            this.picDragon.Location = new System.Drawing.Point(287, 269);
+            this.picDragon.Name = "picDragon";
+            this.picDragon.Size = new System.Drawing.Size(252, 183);
+            this.picDragon.TabIndex = 33;
+            this.picDragon.TabStop = false;
+            this.picDragon.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(822, 450);
+            this.Controls.Add(this.picDragon);
             this.Controls.Add(this.txtEst);
             this.Controls.Add(this.lblAlthough);
             this.Controls.Add(this.lblPlural);
@@ -406,6 +420,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.picDragon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -446,6 +461,7 @@
         private System.Windows.Forms.Label lblPlural;
         private System.Windows.Forms.Label lblAlthough;
         private System.Windows.Forms.TextBox txtEst;
+        private System.Windows.Forms.PictureBox picDragon;
     }
 }
 
