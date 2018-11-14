@@ -37,7 +37,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.txtColor = new System.Windows.Forms.TextBox();
-            this.txtEst = new System.Windows.Forms.TextBox();
             this.txtBody = new System.Windows.Forms.TextBox();
             this.txtAnimal = new System.Windows.Forms.TextBox();
             this.txtNoun = new System.Windows.Forms.TextBox();
@@ -46,14 +45,22 @@
             this.txtb = new System.Windows.Forms.TextBox();
             this.btnGenerate = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.lbl2 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.lblThe = new System.Windows.Forms.Label();
+            this.lblColor = new System.Windows.Forms.Label();
+            this.lblDragon = new System.Windows.Forms.Label();
+            this.lblEst = new System.Windows.Forms.Label();
+            this.lblInteger = new System.Windows.Forms.Label();
+            this.lblOf = new System.Windows.Forms.Label();
+            this.lblBody = new System.Windows.Forms.Label();
+            this.lblAnd = new System.Windows.Forms.Label();
+            this.lblShaped = new System.Windows.Forms.Label();
+            this.lblAnimal = new System.Windows.Forms.Label();
+            this.lblNoun = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.lblIt = new System.Windows.Forms.Label();
+            this.lblPlural = new System.Windows.Forms.Label();
+            this.lblAlthough = new System.Windows.Forms.Label();
+            this.txtEst = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -135,14 +142,6 @@
             this.txtColor.Size = new System.Drawing.Size(100, 20);
             this.txtColor.TabIndex = 8;
             // 
-            // txtEst
-            // 
-            this.txtEst.Location = new System.Drawing.Point(213, 56);
-            this.txtEst.Name = "txtEst";
-            this.txtEst.Size = new System.Drawing.Size(100, 20);
-            this.txtEst.TabIndex = 9;
-            this.txtEst.TextChanged += new System.EventHandler(this.txtEst_TextChanged);
-            // 
             // txtBody
             // 
             this.txtBody.Location = new System.Drawing.Point(482, 56);
@@ -193,6 +192,7 @@
             this.btnGenerate.TabIndex = 16;
             this.btnGenerate.Text = "Generate";
             this.btnGenerate.UseVisualStyleBackColor = true;
+            this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
             // 
             // label9
             // 
@@ -203,93 +203,190 @@
             this.label9.TabIndex = 17;
             this.label9.Text = "label9";
             // 
-            // label10
+            // lblThe
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label10.Location = new System.Drawing.Point(30, 244);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(33, 17);
-            this.label10.TabIndex = 18;
-            this.label10.Text = "The";
+            this.lblThe.AutoSize = true;
+            this.lblThe.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblThe.Location = new System.Drawing.Point(30, 244);
+            this.lblThe.Name = "lblThe";
+            this.lblThe.Size = new System.Drawing.Size(33, 17);
+            this.lblThe.TabIndex = 18;
+            this.lblThe.Text = "The";
+            this.lblThe.Visible = false;
             // 
-            // label11
+            // lblColor
             // 
-            this.label11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label11.Location = new System.Drawing.Point(62, 243);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(100, 21);
-            this.label11.TabIndex = 19;
+            this.lblColor.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblColor.Location = new System.Drawing.Point(62, 243);
+            this.lblColor.Name = "lblColor";
+            this.lblColor.Size = new System.Drawing.Size(100, 21);
+            this.lblColor.TabIndex = 19;
+            this.lblColor.Visible = false;
             // 
-            // label12
+            // lblDragon
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label12.Location = new System.Drawing.Point(168, 244);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(93, 17);
-            this.label12.TabIndex = 20;
-            this.label12.Text = "Dragon is the";
+            this.lblDragon.AutoSize = true;
+            this.lblDragon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblDragon.Location = new System.Drawing.Point(168, 244);
+            this.lblDragon.Name = "lblDragon";
+            this.lblDragon.Size = new System.Drawing.Size(93, 17);
+            this.lblDragon.TabIndex = 20;
+            this.lblDragon.Text = "Dragon is the";
+            this.lblDragon.Visible = false;
             // 
-            // lbl2
+            // lblEst
             // 
-            this.lbl2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lbl2.Location = new System.Drawing.Point(267, 243);
-            this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(85, 21);
-            this.lbl2.TabIndex = 21;
+            this.lblEst.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblEst.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblEst.Location = new System.Drawing.Point(267, 243);
+            this.lblEst.Name = "lblEst";
+            this.lblEst.Size = new System.Drawing.Size(85, 21);
+            this.lblEst.TabIndex = 21;
+            this.lblEst.Visible = false;
             // 
-            // label14
+            // lblInteger
             // 
-            this.label14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label14.Location = new System.Drawing.Point(494, 243);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(100, 21);
-            this.label14.TabIndex = 22;
+            this.lblInteger.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblInteger.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblInteger.Location = new System.Drawing.Point(494, 243);
+            this.lblInteger.Name = "lblInteger";
+            this.lblInteger.Size = new System.Drawing.Size(100, 21);
+            this.lblInteger.TabIndex = 22;
+            this.lblInteger.Visible = false;
             // 
-            // label15
+            // lblOf
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label15.Location = new System.Drawing.Point(358, 244);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(131, 17);
-            this.label15.TabIndex = 23;
-            this.label15.Text = "Dragon of all. It has";
+            this.lblOf.AutoSize = true;
+            this.lblOf.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblOf.Location = new System.Drawing.Point(358, 244);
+            this.lblOf.Name = "lblOf";
+            this.lblOf.Size = new System.Drawing.Size(131, 17);
+            this.lblOf.TabIndex = 23;
+            this.lblOf.Text = "Dragon of all. It has";
+            this.lblOf.Visible = false;
             // 
-            // label16
+            // lblBody
             // 
-            this.label16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label16.Location = new System.Drawing.Point(611, 243);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(102, 21);
-            this.label16.TabIndex = 24;
+            this.lblBody.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblBody.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblBody.Location = new System.Drawing.Point(611, 243);
+            this.lblBody.Name = "lblBody";
+            this.lblBody.Size = new System.Drawing.Size(102, 21);
+            this.lblBody.TabIndex = 24;
+            this.lblBody.Visible = false;
             // 
-            // label13
+            // lblAnd
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label13.Location = new System.Drawing.Point(720, 250);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(54, 17);
-            this.label13.TabIndex = 25;
-            this.label13.Text = "label13";
+            this.lblAnd.AutoSize = true;
+            this.lblAnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblAnd.Location = new System.Drawing.Point(719, 244);
+            this.lblAnd.Name = "lblAnd";
+            this.lblAnd.Size = new System.Drawing.Size(52, 17);
+            this.lblAnd.TabIndex = 25;
+            this.lblAnd.Text = ", and a";
+            this.lblAnd.Visible = false;
+            // 
+            // lblShaped
+            // 
+            this.lblShaped.AutoSize = true;
+            this.lblShaped.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblShaped.Location = new System.Drawing.Point(139, 286);
+            this.lblShaped.Name = "lblShaped";
+            this.lblShaped.Size = new System.Drawing.Size(92, 17);
+            this.lblShaped.TabIndex = 26;
+            this.lblShaped.Text = "shaped like a";
+            this.lblShaped.Visible = false;
+            // 
+            // lblAnimal
+            // 
+            this.lblAnimal.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblAnimal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblAnimal.Location = new System.Drawing.Point(33, 280);
+            this.lblAnimal.Name = "lblAnimal";
+            this.lblAnimal.Size = new System.Drawing.Size(100, 23);
+            this.lblAnimal.TabIndex = 27;
+            this.lblAnimal.Visible = false;
+            // 
+            // lblNoun
+            // 
+            this.lblNoun.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblNoun.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblNoun.Location = new System.Drawing.Point(237, 280);
+            this.lblNoun.Name = "lblNoun";
+            this.lblNoun.Size = new System.Drawing.Size(100, 23);
+            this.lblNoun.TabIndex = 28;
+            this.lblNoun.Visible = false;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(0, 0);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(41, 13);
+            this.label20.TabIndex = 29;
+            this.label20.Text = "label20";
+            // 
+            // lblIt
+            // 
+            this.lblIt.AutoSize = true;
+            this.lblIt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblIt.Location = new System.Drawing.Point(343, 286);
+            this.lblIt.Name = "lblIt";
+            this.lblIt.Size = new System.Drawing.Size(100, 17);
+            this.lblIt.TabIndex = 30;
+            this.lblIt.Text = ". It loves to eat";
+            this.lblIt.Visible = false;
+            // 
+            // lblPlural
+            // 
+            this.lblPlural.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblPlural.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblPlural.Location = new System.Drawing.Point(449, 280);
+            this.lblPlural.Name = "lblPlural";
+            this.lblPlural.Size = new System.Drawing.Size(100, 23);
+            this.lblPlural.TabIndex = 31;
+            this.lblPlural.Visible = false;
+            // 
+            // lblAlthough
+            // 
+            this.lblAlthough.AutoSize = true;
+            this.lblAlthough.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblAlthough.Location = new System.Drawing.Point(555, 288);
+            this.lblAlthough.Name = "lblAlthough";
+            this.lblAlthough.Size = new System.Drawing.Size(264, 17);
+            this.lblAlthough.TabIndex = 32;
+            this.lblAlthough.Text = ", although it will feast on nearly anything.";
+            this.lblAlthough.Visible = false;
+            // 
+            // txtEst
+            // 
+            this.txtEst.Location = new System.Drawing.Point(213, 56);
+            this.txtEst.Name = "txtEst";
+            this.txtEst.Size = new System.Drawing.Size(100, 20);
+            this.txtEst.TabIndex = 9;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(815, 450);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.lbl2);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
+            this.ClientSize = new System.Drawing.Size(822, 450);
+            this.Controls.Add(this.txtEst);
+            this.Controls.Add(this.lblAlthough);
+            this.Controls.Add(this.lblPlural);
+            this.Controls.Add(this.lblIt);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.lblNoun);
+            this.Controls.Add(this.lblAnimal);
+            this.Controls.Add(this.lblShaped);
+            this.Controls.Add(this.lblAnd);
+            this.Controls.Add(this.lblBody);
+            this.Controls.Add(this.lblOf);
+            this.Controls.Add(this.lblInteger);
+            this.Controls.Add(this.lblEst);
+            this.Controls.Add(this.lblDragon);
+            this.Controls.Add(this.lblColor);
+            this.Controls.Add(this.lblThe);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.btnGenerate);
             this.Controls.Add(this.txtb);
@@ -298,7 +395,6 @@
             this.Controls.Add(this.txtNoun);
             this.Controls.Add(this.txtAnimal);
             this.Controls.Add(this.txtBody);
-            this.Controls.Add(this.txtEst);
             this.Controls.Add(this.txtColor);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -326,7 +422,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtColor;
-        private System.Windows.Forms.TextBox txtEst;
         private System.Windows.Forms.TextBox txtBody;
         private System.Windows.Forms.TextBox txtAnimal;
         private System.Windows.Forms.TextBox txtNoun;
@@ -335,14 +430,22 @@
         private System.Windows.Forms.TextBox txtb;
         private System.Windows.Forms.Button btnGenerate;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label lbl2;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label lblThe;
+        private System.Windows.Forms.Label lblColor;
+        private System.Windows.Forms.Label lblDragon;
+        private System.Windows.Forms.Label lblEst;
+        private System.Windows.Forms.Label lblInteger;
+        private System.Windows.Forms.Label lblOf;
+        private System.Windows.Forms.Label lblBody;
+        private System.Windows.Forms.Label lblAnd;
+        private System.Windows.Forms.Label lblShaped;
+        private System.Windows.Forms.Label lblAnimal;
+        private System.Windows.Forms.Label lblNoun;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label lblIt;
+        private System.Windows.Forms.Label lblPlural;
+        private System.Windows.Forms.Label lblAlthough;
+        private System.Windows.Forms.TextBox txtEst;
     }
 }
 

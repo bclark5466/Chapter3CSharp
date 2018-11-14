@@ -17,7 +17,8 @@ namespace MadLibGUI
             InitializeComponent();
         }
 
-        private void txtEst_TextChanged(object sender, EventArgs e)
+
+        private void btnGenerate_Click(object sender, EventArgs e)
         {
             string color;
             string est;
@@ -40,7 +41,27 @@ namespace MadLibGUI
 
             c = a - b;
 
-
+            lblColor.Text = "" + color;
+            lblEst.Text = "" + est;
+            lblInteger.Text = "" + c;
+            lblBody.Text = "" + bodyPart;
+            lblAnimal.Text = "" + animal;
+            lblNoun.Text = "" + noun;
+            lblPlural.Text = "" + pluralNoun;
+            lblThe.Visible = true;
+            lblColor.Visible = true;
+            lblDragon.Visible = true;
+            lblEst.Visible = true;
+            lblOf.Visible = true;
+            lblInteger.Visible = true;
+            lblBody.Visible = true;
+            lblAnd.Visible = true;
+            lblAnimal.Visible = true;
+            lblShaped.Visible = true;
+            lblNoun.Visible = true;
+            lblIt.Visible = true;
+            lblPlural.Visible = true;
+            lblAlthough.Visible = true;
         }
     }
 }
