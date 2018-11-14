@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1C7DFC5F-05FB-4F6E-887A-B9EDED218B5E}</ProjectGuid>
+    <ProjectGuid>{B90CB9EE-5EA4-438D-9FA7-C949D71E1241}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CarRentalGui</RootNamespace>
-    <AssemblyName>CarRentalGui</AssemblyName>
+    <RootNamespace>MadLibGUI</RootNamespace>
+    <AssemblyName>MadLibGUI</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

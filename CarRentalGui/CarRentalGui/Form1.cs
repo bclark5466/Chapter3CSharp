@@ -16,5 +16,23 @@ namespace CarRentalGui
         {
             InitializeComponent();
         }
+
+        private void btnCalc_Click(object sender, EventArgs e)
+        {
+            double days;
+            double miles;
+            double totalCost;
+            string moneyProduct;
+
+            days = Convert.ToDouble(txtDays.Text);
+            miles = Convert.ToDouble(txtMiles.Text);
+
+            totalCost = (20 * days + .25 * miles);
+            moneyProduct = totalCost.ToString("C");
+
+            lblResult.Text = " " + moneyProduct;
+
+            
+        }
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1C7DFC5F-05FB-4F6E-887A-B9EDED218B5E}</ProjectGuid>
+    <ProjectGuid>{182128DB-2C8D-43E1-8D4A-68652FC9D41E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CarRentalGui</RootNamespace>
-    <AssemblyName>CarRentalGui</AssemblyName>
+    <RootNamespace>EggsIntGUI</RootNamespace>
+    <AssemblyName>EggsIntGUI</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

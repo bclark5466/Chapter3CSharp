@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1C7DFC5F-05FB-4F6E-887A-B9EDED218B5E}</ProjectGuid>
+    <ProjectGuid>{9531BA55-5598-4837-8AEB-429F23803850}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CarRentalGui</RootNamespace>
-    <AssemblyName>CarRentalGui</AssemblyName>
+    <RootNamespace>PayrollGui</RootNamespace>
+    <AssemblyName>PayrollGui</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
