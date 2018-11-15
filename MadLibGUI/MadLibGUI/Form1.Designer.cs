@@ -45,7 +45,6 @@
             this.txta = new System.Windows.Forms.TextBox();
             this.txtb = new System.Windows.Forms.TextBox();
             this.btnGenerate = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
             this.lblThe = new System.Windows.Forms.Label();
             this.lblColor = new System.Windows.Forms.Label();
             this.lblDragon = new System.Windows.Forms.Label();
@@ -57,7 +56,6 @@
             this.lblShaped = new System.Windows.Forms.Label();
             this.lblAnimal = new System.Windows.Forms.Label();
             this.lblNoun = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
             this.lblIt = new System.Windows.Forms.Label();
             this.lblPlural = new System.Windows.Forms.Label();
             this.lblAlthough = new System.Windows.Forms.Label();
@@ -197,15 +195,6 @@
             this.btnGenerate.UseVisualStyleBackColor = true;
             this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(0, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
-            this.label9.TabIndex = 17;
-            this.label9.Text = "label9";
-            // 
             // lblThe
             // 
             this.lblThe.AutoSize = true;
@@ -321,15 +310,6 @@
             this.lblNoun.TabIndex = 28;
             this.lblNoun.Visible = false;
             // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(0, 0);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(41, 13);
-            this.label20.TabIndex = 29;
-            this.label20.Text = "label20";
-            // 
             // lblIt
             // 
             this.lblIt.AutoSize = true;
@@ -383,13 +363,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(822, 450);
             this.Controls.Add(this.picDragon);
             this.Controls.Add(this.txtEst);
             this.Controls.Add(this.lblAlthough);
             this.Controls.Add(this.lblPlural);
             this.Controls.Add(this.lblIt);
-            this.Controls.Add(this.label20);
             this.Controls.Add(this.lblNoun);
             this.Controls.Add(this.lblAnimal);
             this.Controls.Add(this.lblShaped);
@@ -401,7 +382,6 @@
             this.Controls.Add(this.lblDragon);
             this.Controls.Add(this.lblColor);
             this.Controls.Add(this.lblThe);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.btnGenerate);
             this.Controls.Add(this.txtb);
             this.Controls.Add(this.txta);
@@ -418,6 +398,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Cursor = System.Windows.Forms.Cursors.AppStarting;
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.picDragon)).EndInit();
@@ -444,7 +425,6 @@
         private System.Windows.Forms.TextBox txta;
         private System.Windows.Forms.TextBox txtb;
         private System.Windows.Forms.Button btnGenerate;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label lblThe;
         private System.Windows.Forms.Label lblColor;
         private System.Windows.Forms.Label lblDragon;
@@ -456,7 +436,6 @@
         private System.Windows.Forms.Label lblShaped;
         private System.Windows.Forms.Label lblAnimal;
         private System.Windows.Forms.Label lblNoun;
-        private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label lblIt;
         private System.Windows.Forms.Label lblPlural;
         private System.Windows.Forms.Label lblAlthough;
