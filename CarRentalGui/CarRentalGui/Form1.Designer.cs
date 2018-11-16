@@ -41,9 +41,9 @@
             this.lblDays.AutoSize = true;
             this.lblDays.Location = new System.Drawing.Point(106, 52);
             this.lblDays.Name = "lblDays";
-            this.lblDays.Size = new System.Drawing.Size(94, 13);
+            this.lblDays.Size = new System.Drawing.Size(132, 13);
             this.lblDays.TabIndex = 0;
-            this.lblDays.Text = "Please Enter Days";
+            this.lblDays.Text = "Please Enter Days Rented";
             // 
             // lblMiles
             // 
