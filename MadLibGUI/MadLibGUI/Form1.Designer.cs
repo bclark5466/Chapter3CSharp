@@ -199,7 +199,7 @@
             // 
             this.lblThe.AutoSize = true;
             this.lblThe.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblThe.Location = new System.Drawing.Point(29, 207);
+            this.lblThe.Location = new System.Drawing.Point(22, 207);
             this.lblThe.Name = "lblThe";
             this.lblThe.Size = new System.Drawing.Size(33, 17);
             this.lblThe.TabIndex = 18;
@@ -283,7 +283,7 @@
             // 
             this.lblShaped.AutoSize = true;
             this.lblShaped.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblShaped.Location = new System.Drawing.Point(138, 249);
+            this.lblShaped.Location = new System.Drawing.Point(138, 244);
             this.lblShaped.Name = "lblShaped";
             this.lblShaped.Size = new System.Drawing.Size(92, 17);
             this.lblShaped.TabIndex = 26;
@@ -314,7 +314,7 @@
             // 
             this.lblIt.AutoSize = true;
             this.lblIt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblIt.Location = new System.Drawing.Point(342, 249);
+            this.lblIt.Location = new System.Drawing.Point(342, 244);
             this.lblIt.Name = "lblIt";
             this.lblIt.Size = new System.Drawing.Size(100, 17);
             this.lblIt.TabIndex = 30;
@@ -335,7 +335,7 @@
             // 
             this.lblAlthough.AutoSize = true;
             this.lblAlthough.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblAlthough.Location = new System.Drawing.Point(554, 251);
+            this.lblAlthough.Location = new System.Drawing.Point(554, 244);
             this.lblAlthough.Name = "lblAlthough";
             this.lblAlthough.Size = new System.Drawing.Size(264, 17);
             this.lblAlthough.TabIndex = 32;
