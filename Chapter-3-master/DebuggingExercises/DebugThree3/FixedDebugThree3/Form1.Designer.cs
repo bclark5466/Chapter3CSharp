@@ -1,6 +1,6 @@
 ﻿namespace FixedDebugThree3
 {
-    partial class Form
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -79,7 +79,7 @@
             this.outputLabel.TabIndex = 4;
             this.outputLabel.Text = "Running total :";
             // 
-            // Form
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -89,7 +89,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form";
+            this.Name = "Form1";
             this.Text = "Running Total";
             this.ResumeLayout(false);
             this.PerformLayout();

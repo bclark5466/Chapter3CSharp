@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace FixedDebug3
+namespace FixedDebugThree3
 {
     static class Program
     {
@@ -15,7 +15,7 @@ namespace FixedDebug3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form());
+            Application.Run(new Form1());
         }
     }
 }
